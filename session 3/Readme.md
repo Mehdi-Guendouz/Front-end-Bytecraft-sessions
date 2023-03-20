@@ -1,1 +1,1 @@
-Figma Link: https://www.figma.com/file/bKk2DO1Hf8ZTbv8vqca6Es/website-landing-page-design-(Community)-(Copy)?node-id=609%3A5&t=8FcaBrQLH5jVf05f-1
+Figma Link: https://www.figma.com/file/uMpvTxsoEJIqRR2MYTHByJ/website-landing-page-design-(Community)-(Copy)-(Copy)?node-id=609%3A5&t=GIwyi1LUW0mIxpO5-1
