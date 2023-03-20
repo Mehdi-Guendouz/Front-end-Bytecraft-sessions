@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.container{
+    max-width: 95%; 
+    margin: 0 auto;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.list-items{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+
+.list-items > li >a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.nav-container > a{
+    background-color: #1B8036;
+    padding: 15px 20px ;
+    box-shadow: 3.23094px 10.7698px 21.5396px rgba(27, 128, 54, 0.51);
+    color: white;
+    border-radius: 26px;
+}
+
+.div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #1B8036;
+}
+
+
+.container-content{
+    padding: 40px;
+}
+
+/* hero section  */
+
+
+.main-section-container{
+	display: flex;
+	align-items: center;
+}
+
+.main-section-container > .left-side {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+	flex: 2;
+    /* the flex prop here defined the size of teh item inside the flex container in this 
+    case the "main-section-container" so the "left-side" here will take 2 times the size of the container "main-section-container"
+    for this to work you should specified the flex of the second item in the container which is the 
+    "right-side" with a flex:1 as we did below  */
+}
+
+.main-section-container > .left-side > h1 {
+	font-weight: 700;
+	font-size: 74.0971px;
+	line-height: 98px;
+	color: #1B8036;
+	text-transform: capitalize;
+}
+
+.main-section-container > .left-side > p {
+	font-weight: 500;
+	font-size: 24.8718px;
+	line-height: 33px;
+	color: #464749;
+}
+
+.main-section-container > .left-side > a {
+	background-color: #1B8036;
+	padding: 15px 20px;
+	border-radius: 30px;
+	margin-top: 20px;
+	color: white;
+	font-weight: 500;
+	font-size: 19px;
+	border: #1B8036;
+	width: fit-content;
+}
+
+.main-section-container >.right-side {
+	flex: 1;
+}
