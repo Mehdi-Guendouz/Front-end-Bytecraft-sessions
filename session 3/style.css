@@ -16,7 +16,8 @@ body{
 }
 
 .container{
-    max-width: 95%; 
+    width: 95%; 
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -32,7 +33,10 @@ body{
     gap: 60px;
     list-style: none;
 }
-
+/* 
+.list-items > li{
+    margin-left: 60px;
+} */
 
 .list-items > li >a{
     text-decoration: none;
@@ -111,3 +115,224 @@ body{
 .main-section-container >.right-side {
 	flex: 1;
 }
+
+
+/* second section  */
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px 0;
+}
+
+.about-container > .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.about-container > .top > .left {
+    flex: 1;
+    
+}
+
+.about-container > .top > .right , .about-container > .bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    /* position: relative; */
+    padding: 20px 0;
+}
+
+
+.about-container > .top > .right > h2 ,.about-container > .bottom  > h2{
+    font-size: 38.77px;
+    font-weight: 700;
+}
+.about-container > .top > .right > span , .about-container > .bottom >span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #C4C4C4;
+    position: relative;
+    margin-left: 20px;
+}
+
+.about-container > .top > .right > span::before , .about-container > .bottom > span::before{
+    content: "";
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    left: -15px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-container > .top > .right > p , .about-container > .bottom > p{
+    font-size: 25.85px;
+    font-weight: 400;
+    color: #0C0C0C;
+    /* text-align: right; */
+}
+
+
+
+/* products section style */
+
+
+
+.products-container {
+	width: 100%;
+    margin: 0 auto;
+	padding: 50px 0;
+	/* background-color: #7C7C7C; */
+	position: relative;
+}
+
+.products-container::after{
+	content: '';
+    position: absolute;
+    width: 85%;
+	height: 1px;
+	background-color: #1E1E1E99;
+    bottom: 0;
+}
+
+.products-container > h1 {
+	font-weight: 700;
+	font-size: 38.7712px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #137212;
+}
+
+.products-container > .products-des-container{
+	display: flex;
+	align-items: center;
+	padding: 40px 0px;
+}
+
+.products-des-container > .products-des {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	gap: 20px;
+	flex: 1;
+}
+
+.products-des-container >.products-des > h1{
+	font-weight: 700;
+	font-size: 38.7712px;
+	line-height: 116.69%;
+	color: #1B1B1B;
+}
+
+
+.products-des-container > .products-des > h3{
+	font-weight: 500;
+	font-size: 25.8475px;
+	line-height: 169.69%;
+	color: #0C0C0C;
+}
+
+.products-des-container > .products-des > p {
+	font-weight: 400;
+	font-size: 19.3856px;
+	line-height: 169.69%;
+	color: #7C7C7C;
+}
+
+.products-des-container >.products-des > button{
+	background: #1B8036;
+	border-radius: 11.8468px;
+	padding: 20px 25px;
+	color: white;
+	border: #1B8036;
+	font-weight: 400;
+	width: fit-content;
+}
+
+
+.products-des-container > .products-img-container {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+
+/* nft section style */
+
+.nft-section {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 5rem 0;
+	position: relative;
+}
+
+.img-circle {
+	position: absolute;
+	width: 800px;
+    height: 800px;
+    border-radius: 50%;
+	background: radial-gradient(50% 50% at 50% 50%, #A6A2CF 0%, rgba(217, 217, 217, 0) 100%);
+	filter: blur(24.8718px);
+	top: -160px;
+	left: -100px;
+    z-index: -1;
+
+}
+
+.nft-section::after{
+	content: '';
+    position: absolute;
+    width: 85%;
+	height: 1px;
+	background-color: #1E1E1E99;
+    bottom: 0;
+}
+
+.pc-img{
+	position: relative;
+	z-index: 10;
+}
+
+.nft-section > .nft-des {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	max-width: 540px;
+	margin: 0 auto;
+	
+}
+
+.nft-section > .nft-des > h1 {
+	font-weight: 700;
+	font-size: 38.7712px;
+	line-height: 116.69%;
+	color: #000000;
+}
+
+.nft-section > .nft-des > h4 {
+	font-weight: 500;
+	font-size: 25.8475px;
+	line-height: 55px;
+	color: #0C0C0C;
+}
+
+.nft-section > .nft-des > p {
+	font-weight: 400;
+	font-size: 19.3856px;
+	line-height: 169.69%;
+	color: #7C7C7C;
+}
+
