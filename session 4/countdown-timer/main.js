@@ -50,7 +50,6 @@ function getRemainingTime() {
   minTemp.textContent = `${format(values[2])}` 
   secondsTemp.textContent = `${format(values[3])}` 
 
-
   if (t < 0) {
     clearInterval(countdown);
   }

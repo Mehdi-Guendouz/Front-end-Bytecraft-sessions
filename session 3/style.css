@@ -336,3 +336,25 @@ body{
 	color: #7C7C7C;
 }
 
+.sidebar{
+	display: none;
+}
+
+
+/* responsive design */
+
+@media (max-width: 768px) {
+	.container > .nav-container > nav{
+		/* background-color: red; */
+		display: none;
+
+	}
+
+	.container-content > .main-section-container{
+		flex-direction: column;
+	}
+
+		.sidebar {
+			display: block;
+		}
+}
